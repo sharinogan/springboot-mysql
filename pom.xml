@@ -36,8 +36,15 @@
         </dependency>
     </dependencies>
     
+    
+    
     <build>
-        <sourceDirectory>code/main</sourceDirectory>
-        <testSourceDirectory>test/main</testSourceDirectory>
+        <sourceDirectory>code</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>web</directory>
+            </resource>
+        </resources>
     </build>
 </project>
